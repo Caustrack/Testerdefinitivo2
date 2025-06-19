@@ -1,0 +1,415 @@
+/* Reset de estilo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente base */
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #ddb27d;
+  line-height: 1.6;
+}
+
+/* Estilos del Header */
+header {
+  background-color: #d7d7d6; /* Color de fondo */
+  padding: 2px 0;
+}
+
+.mainaviso {
+  margin-top: 9%;
+}
+
+.mainaviso ol {
+  font-size: 15px;
+  text-align: left;
+}
+
+.principal {
+   color: black;
+  background-color: white;
+  opacity: 0.97;
+  background-size: cover;
+  text-align: center;
+  font-size: 1.5em;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+  
+}
+
+
+
+.aviso {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.95;
+    background-size: cover;
+  text-align: center;
+  font-size: 1.5em;
+  margin-left: 5.9%;
+  margin-right: 5.9%;
+
+}
+
+.right1 {
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 2%;
+  color: black;
+   flex: 1;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.logo {
+color: black;
+    text-align: left;
+    padding: 0%;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+     display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  height: 100px; /* o lo que necesites */
+  background-image: url('./img/fondonav/fondonav.png');
+  background-size: cover;      /* para que se estire y cubra */
+  background-position: center; /* centrada siempre */
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #3d3d3d;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #3f64cb; /* color del hover */
+}
+
+.parrafo1 {
+    color: #2d60ea;
+}
+
+.parrafo2 {
+  text-align: center;
+}
+
+.parrafo3 {
+  opacity: 1;
+  text-align: center;
+}
+
+
+/* Sección Hero */
+#hero {
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+  color: #333;
+}
+
+#hero .hero-content h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#hero .hero-content p {
+  font-size: 20px;
+}
+
+/* Sección Acerca de Nosotros */
+#about {
+  background-image: url('./img/fondonav/fondonav.png');
+  color: #ddb27d;
+  background-color: #054d47;
+  opacity: 0.97;
+  background-size: cover;
+  padding: 60px 20px;
+  text-align: left;
+  font-size: 1.5em;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+}
+
+#aboit {
+  color: #ddb27d;
+  background-color: #054d47;
+  opacity: 0.97;
+  background-size: cover;
+  padding: 60px 20px;
+  text-align: left;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+
+}
+
+#aboit h2 {
+  color: white;
+}
+
+#about h2 {
+  color: #ddb27d;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#about h4 {
+  color: white;
+}
+
+#somos {
+  background-color: #ffffff;
+  opacity: 0.9;
+  font-size: 1.5em;
+  background-size: cover;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+
+}
+/* Sección Servicios */
+#services {
+  background-color: #ffffff;
+  opacity: 0.9;
+  padding: 60px 20px;
+  text-align: right;
+  font-size: 1.5em;
+  background-size: cover;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+}
+
+.btn-glow {
+  background: #ddb27d;
+  color: white;
+  border: none;
+  font-size: small;
+  border-radius: 10px;
+  font-weight: bold;
+  text-shadow: 0 0 3px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px #ddb27d55;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-glow:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #959594aa;
+}
+
+.btn-glow2 {
+  background: #ddb27d;
+  color: white;
+  border-radius: 10px;
+  font-size: small;
+
+}
+
+#services h2 {
+  color: #ddb27d;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#services p {
+  color: black;
+}
+
+.service-item {
+  margin-bottom: 40px;
+}
+
+.service-item h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #c3c2c1;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+}
+
+
+.left{
+    text-align: left;
+    margin-left: 5%;
+    padding: auto;
+}
+
+.negrita {
+  color: black;
+  font-style:oblique
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin-right: 20px;
+  color: white
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #0693e3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+button:hover {
+  background-color: #1d4d48;
+}
+
+.contact-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0693e3;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #005bb5;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+
+.contactotexto {
+
+  color: #ddb27d;
+  font-size: 50px;
+}
+
+  .btn-navbar-highlight {
+    color: #ddb27d !important;
+  }
+
+   .navbar-gold-btn {
+    background-color: #ddb27d !important;
+    color: white !important;
+    border-radius: 10px;
+    padding: 6px 14px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    cursor: pointer;
+  }
+    .navbar-gold-btn:hover {
+    background-color: #1d4d48 !important;
+    color: white !important;
+    }
+    .dropdown-menu {
+  z-index: 1055 !important;
+}
