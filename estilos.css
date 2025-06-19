@@ -75,18 +75,76 @@ color: black;
   justify-content: center;
 }
 
+
+
+nav ul ul {
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: none; /* Oculto por defecto */
+}
+
+nav ul li:hover > ul {
+  display: block; /* Mostrar cuando se hace hover */
+}
+
+
+@media (max-width: 768px) {
+  nav ul ul {
+    position: static;
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: none;
+    padding: 5px;
+  }
+
+  nav ul li:hover > ul {
+    display: block;
+  }
+
+  nav ul ul li {
+    margin: 5px 0;
+  }
+}
+
+
 nav {
   height: 100px; /* o lo que necesites */
   background-image: url('./img/fondonav/fondonav.png');
   background-size: cover;      /* para que se estire y cubra */
   background-position: center; /* centrada siempre */
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
+nav img {
+  max-width: 100px;
+  height: auto;
+}
 
 nav ul {
+ list-style: none;
   display: flex;
-  justify-content: center;
-  list-style-type: none;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+      flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 nav ul li {
