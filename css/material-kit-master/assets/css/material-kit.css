@@ -3112,7 +3112,7 @@ textarea.form-control-lg {
 }
 
 .form-check-input {
-  --bs-form-check-bg: #fff;
+  --bs-form-check-bg: #9b0000;
   flex-shrink: 0;
   width: 1.23em;
   height: 1.23em;
